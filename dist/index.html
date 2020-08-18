@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>孙笑闯-简历</title>
+    <style>* {box-sizing: border-box;}
+        h3,h4,h5,h6 {margin: 0;}
+        ol,ul {list-style: none;padding: 0;margin: 0;}
+        a{color: rgb(129, 124, 124);text-decoration: none;border-bottom: 1px solid;font-size: 14px;}
+        body {background: #ccc;margin: 20px 0;}
+        p,li {color: #303030;}
+
+        p {
+            margin: .3em, 0;
+        }
+
+        article {
+            width: 21cm;
+            min-height: 29.7cm;
+            background: #fff;
+            margin: 0 auto;
+            overflow: auto;
+            padding: 1em;
+        }
+
+        strong {
+            color: #0D8FBF;
+        }
+
+        section>:not(:nth-child(1)) {
+            padding-left: 24px !important;
+        }</style>
+    <style media="print">body {
+            margin: 0;
+        }
+
+        #skills {
+            display: none;
+        }</style>
+    <style>@media (max-width:500px) {
+            article {
+                width: auto;
+                height: auto;
+            }
+
+            body {
+                margin: 0;
+            }
+        }</style>
+</head>
+
+<body>
+    <article>
+        <section class="information">
+            <h1>孙笑闯</h1>
+            <p>
+                <span>男</span> | <span>22岁</span> | <span>前端开发工程师</span> | <span>北京</span>
+            </p>
+            <p>
+                <span>手机 / 微信：<a href="tel:1767462088">17671462088</a></span> | <span> 邮箱：<a href="mailto:460046653@qq.com">460046653@qq.com</a></span>
+            </p>
+        </section>
+        <style>.information>p>span {
+                padding: 0 14px;
+            }
+
+            .information>p>span:nth-child(1) {
+                padding-left: 0;
+            }</style>
+        <style>.projects>ol {
+                margin-top: 0;
+                list-style-position: inside;
+                padding: 0;
+            }
+
+            .projects>ol>li {
+                margin-bottom: 24px;
+            }
+
+            .projects p {
+                color: #666;
+            }
+
+            .projects>ol>li>header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .projects>ol>li>header>h3 {
+                display: inline-block;
+            }
+            .projects>ol>li > .description{
+                display: flex;
+                justify-content: space-between;
+            }</style>
+        <section class="projects">
+            <h2>项目经历</h2>
+            <ol>
+                <li>
+                    <header>
+                        <h3>tally (记账软件)</h3>
+                        <span>
+                            <a href="http://sunxiaochuang.top/tally-website/#/money" target="_blank">项目预览</a>
+                            <a href="https://github.com/s-xiaoxiao/tally-website" target="_blank">源码链接</a>
+                        </span>
+                    </header>
+                <div class="description">
+                    <div>
+                    <p>一个基于<strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面离线应用</p>
+                    <p>tally 以极简风格为主，具有<strong>记账</strong>、<strong>标签管理</strong>、<strong>统计支出收入</strong>三大模块系统</p>
+                    <p>具有状态管理功能、本地计算信息存储功能，使用<strong>Vuex</strong> + <strong>LocalStorage</strong></p>
+                    <p>技术栈：TS、Vue、Vuex、Vue-Router、Scss</p>
+                     </div>
+                <div style="margin-top:10px "><img src="/tally-er.68ababa5.png" title="项目地址二维码" alt="项目地址二维码" width="128px" height="128px">
+                    <p style="text-align:center;margin: 0;margin-top: 6px;"><strong>体验用微信</strong></p></div>
+                </div>
+                </li>
+                <li>
+                    <header>
+                        <h3>首页站点</h3>
+                        <span>
+                            <a href="http://sunxiaochuang.top/nav-1/dist/index.html" target="_blank">项目预览</a>
+                            <a href="https://github.com/s-xiaoxiao/nav-1" target="_blank">源码链接</a>
+                        <span>
+                    </span></span></header>
+                    <p>一个可以当作首页的站点，具有<strong>存储互联网网址功能</strong></p>
+                    <p>支持0-9热键<strong>快捷键</strong>启动方式</p>
+                    <p>内置百度搜索功能</p>
+                </li>
+            </ol>
+        </section>
+        <style>.openSource>ul {
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+            }
+            .openSource>ul>li {
+                flex:1;
+            }
+            .openSource>ul>li>header {
+                display: flex;
+                justify-content: space-between;
+            }
+            .openSource>ul>li>header>h3 {
+                display: inline-block;
+            }
+            .openSource p {
+                color: #666;
+            }</style>
+        <section class="openSource">
+            <h2>开源项目</h2>
+            <ul>
+                <li>
+                    <header>
+                        <h3>自己写的DOM库</h3>
+                    </header>
+                    <p>实现<strong>查找元素</strong>、<strong>设置</strong>样式以及<strong>得到</strong>属性值</p>
+                    <p>设置元素样式支持接受<strong>对象</strong>设置多个样式</p>
+                    <p>功能不多，练习<strong>封装DOM</strong>小项目</p>
+                    <p style="display:flex;justify-content:flex-end;padding-right: 32px;">
+                        <a href="https://github.com/s-xiaoxiao/dom-1" target="_blank">源码链接</a>
+                    </p>
+                </li>
+                <li>
+                    <header>
+                        <h3>jQuery</h3>
+                    </header>
+                    <p>模仿Jquery支持调用时，<strong>链式操作</strong></p>
+                    <p>支持单个节点以及多个节点查询，添加 class</p>
+                    <p>例如：$('#test').find('.child').addClass('red')</p>
+                    <p style="display:flex;justify-content:flex-end;padding-right: 32px;">
+                            <a href="https://github.com/s-xiaoxiao/jQuery-demo-1" target="_blank">源码链接</a>                     
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <style>.skills > h2{
+                margin-top: 0;
+                margin-bottom: 4px;
+            }
+            .skills>.wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+            .skills > .wrapper > div,ol{
+                flex:1;
+            }
+            .skills>.wrapper> :first-child {
+                margin-right: 24px;
+            }
+
+            .skills>.wrapper>ol>li {
+                line-height: 1.2;
+                margin-bottom: 8px;
+            }</style>
+        <section class="skills">
+            <h2>技能</h2>
+            <div class="wrapper">
+                <div id="skills" style="width: 500px;height:260px;"></div>
+                <ol>
+                    <li> 熟悉页面制作,能将设计稿<strong>完美还原</strong></li>
+                    <li> 熟悉HTML,CSS以及<strong>flex</strong>布局</li>
+                    <li> 熟悉<strong>前后端分离</strong>技术，AJAX、跨域、前端路由、Cookie、Session等</li>
+                    <li> 熟练掌握<strong>Vue全家桶</strong>的使用，VueCli、VueRouter、Vux等</li>
+                    <li> 熟悉ES6，包括let/const/Promise/await/析构赋值</li>
+                    <li> 了解<strong>TypeScript</strong>的使用</li>
+                </ol>
+            </div>
+
+        </section>
+        <style>.edu{
+                display: flex;
+            }
+            .edu > article > h2{
+                margin-top: 0;
+                margin-bottom: 6px;
+            }
+            .edu > article{
+                width: auto;
+                min-height: auto;
+                flex: 1;
+                margin: 0;
+                padding: 0 !important;
+            }
+            .edu > article:first-of-type{
+                flex:1.2;
+            }</style>
+        <section class="edu">
+            <article>
+                <h2>教育经历</h2>
+                <p>
+                    <span> <time>2016</time>~<time>2019</time></span>
+                    武汉交通职业学院 计算机应用技术 专科
+                </p>
+            </article>
+            <article>
+                <h2>其他链接</h2>
+                <p>
+                    <a href="https://github.com/s-xiaoxiao">Github</a>
+                    <a href="https://sunxiaochuang.top">Blog</a>
+                </p>
+            </article>
+        </section>
+            
+    </article>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+</html>
