@@ -20,7 +20,6 @@ option = {
             { name: 'Vue', max: 5},
             { name: '沟通能力', max: 5},
             { name: '编程能力', max: 5},
-            
         ]
     },
     series: [{
@@ -28,7 +27,7 @@ option = {
         // areaStyle: {normal: {}},
         data: [
             {
-                value: [4,3,4,3,4],
+                value: [4,3,4,3,4,5],
                 name: '能力雷达'
             }
         ]
